@@ -4,7 +4,7 @@
         <TargetFramework>net10.0</TargetFramework>
         <Nullable>enable</Nullable>
         <ImplicitUsings>enable</ImplicitUsings>
-        <PackageId>PaymentNETClient.AspNetCore</PackageId>
+        <PackageId>PaymentNET.AspNetCore</PackageId>
         <Version>1.0.0</Version>
         <Authors>Behtash Shirzad</Authors>
         <Description>Asp Net Core Middleware For Payment Verification</Description>

@@ -1,4 +1,4 @@
-namespace PaymentNETClient.AspNetCore.Contracts;
+namespace PaymentNET.AspNetCore.Contracts;
 
 public interface IPaymentVerificationHandler
 {

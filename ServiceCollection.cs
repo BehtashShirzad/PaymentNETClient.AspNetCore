@@ -1,6 +1,6 @@
-using PaymentNETClient.AspNetCore.Contracts;
+using PaymentNET.AspNetCore.Contracts;
 
-namespace PaymentNETClient.AspNetCore;
+namespace PaymentNET.AspNetCore;
 
 public static class ServiceCollection
 {

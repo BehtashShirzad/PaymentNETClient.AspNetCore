@@ -1,9 +1,9 @@
 ﻿using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Routing;
-using PaymentNETClient.AspNetCore.Contracts;
+using PaymentNET.AspNetCore.Contracts;
 
-namespace PaymentNETClient.AspNetCore.Middleware;
+namespace PaymentNET.AspNetCore.Middleware;
 
 public static class Endpoint
 {

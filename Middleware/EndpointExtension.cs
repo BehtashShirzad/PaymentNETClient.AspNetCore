@@ -1,8 +1,8 @@
-namespace PaymentNETClient.AspNetCore.Middleware;
+namespace PaymentNET.AspNetCore.Middleware;
 
 public static class EndpointExtension
 {
-    public static IEndpointRouteBuilder MapPaymentClient(
+    public static IEndpointRouteBuilder MapPaymentCore(
         this IEndpointRouteBuilder app)
     {
         app.MapPaymentVerificationEndpoint();
