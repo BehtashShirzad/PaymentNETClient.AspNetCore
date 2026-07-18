@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+    <PropertyGroup>
+        <TargetFramework>net10.0</TargetFramework>
+        <Nullable>enable</Nullable>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <PackageId>PaymentNET.AspNetCore</PackageId>
+        <Version>1.0.0</Version>
+        <Authors>Behtash Shirzad</Authors>
+        <Description>Asp Net Core Middleware For Payment Verification</Description>
+        <IsPackable>true</IsPackable>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="10.0.6"/>
+    </ItemGroup>
+    <ItemGroup>
+        <PackageReference Include="PaymentNET" Version="1.0.*" />
+    </ItemGroup>
+
+</Project>
