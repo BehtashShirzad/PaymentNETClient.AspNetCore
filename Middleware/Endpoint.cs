@@ -1,5 +1,7 @@
 ﻿using Microsoft.AspNetCore.Builder;
+using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Routing;
+using PaymentNETClient.AspNetCore.Contracts;
 
 namespace PaymentNETClient.AspNetCore.Middleware;
 
@@ -11,9 +13,9 @@ public static class Endpoint
         group.MapPost("verify", VerifyTransactionCallBack);
     }
 
-    private static Task VerifyTransactionCallBack()
+    private static async Task VerifyTransactionCallBack([FromServices]IPaymentVerificationHandler paymentVerificationHandler,CancellationToken cancellationToken)
     {
-        
-        return Task.CompletedTask;
+        var resutl = await paymentVerificationHandler.HandleAsync(null,cancellationToken);
+       
     }
 }
