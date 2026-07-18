@@ -27,11 +27,11 @@ jobs:
       - name: Build
         run: dotnet build -c Release --no-restore
 
-      - name: Pack PaymentNETClient.AspNetCore
+      - name: Pack PaymentNET.AspNetCore
         run: |
           VERSION=${GITHUB_REF_NAME#v}
 
-          dotnet pack PaymentNETClient.AspNetCore.csproj \
+          dotnet pack PaymentNET.AspNetCore.csproj \
             -c Release \
             --no-build \
             -p:PackageVersion=$VERSION \
@@ -43,6 +43,6 @@ jobs:
       - name: Publish to NuGet
         run: |
           dotnet nuget push "./artifacts/*.nupkg" \
-            --api-key ${{ secrets.PAYMENTNETCLIENTS_SECRETKEY }} \
+            --api-key ${{ secrets.PaymentNETS_SECRETKEY }} \
             --source https://api.nuget.org/v3/index.json \
             --skip-duplicate
