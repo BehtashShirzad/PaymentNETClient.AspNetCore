@@ -27,11 +27,11 @@ jobs:
       - name: Build
         run: dotnet build -c Release --no-restore
 
-      - name: Pack PaymentNET.AspNetCore
+      - name: Pack PaymentNETClient.AspNetCore
         run: |
           VERSION=${GITHUB_REF_NAME#v}
 
-          dotnet pack PaymentNET.AspNetCore.csproj \
+          dotnet pack PaymentNETClient.AspNetCore.csproj \
             -c Release \
             --no-build \
             -p:PackageVersion=$VERSION \
