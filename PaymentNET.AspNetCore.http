@@ -1,6 +1,0 @@
-@PaymentNET.AspNetCore_HostAddress = http://localhost:5045
-
-GET {{PaymentNET.AspNetCore_HostAddress}}/weatherforecast/
-Accept: application/json
-
-###
