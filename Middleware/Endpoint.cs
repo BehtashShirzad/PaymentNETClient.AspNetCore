@@ -1,4 +1,4 @@
-﻿namespace PaymentNET.AspNetCore.Middleware;
+﻿namespace PaymentNETClient.AspNetCore.Middleware;
 
 public static class Endpoint
 {

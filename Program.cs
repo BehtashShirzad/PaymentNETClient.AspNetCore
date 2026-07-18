@@ -1,4 +1,4 @@
-using PaymentNET.AspNetCore.Middleware;
+using PaymentNETClient.AspNetCore.Middleware;
 
 var builder = WebApplication.CreateBuilder(args);
 
