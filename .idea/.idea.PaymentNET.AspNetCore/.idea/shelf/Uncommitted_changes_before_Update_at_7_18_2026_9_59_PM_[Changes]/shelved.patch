@@ -1,0 +1,75 @@
+Index: .idea/.idea.PaymentNET.AspNetCore/.idea/.gitignore
+===================================================================
+diff --git a/.idea/.idea.PaymentNET.AspNetCore/.idea/.gitignore b/.idea/.idea.PaymentNET.AspNetCore/.idea/.gitignore
+deleted file mode 100644
+--- a/.idea/.idea.PaymentNET.AspNetCore/.idea/.gitignore	(revision f31aa3e8536c62f06ece194c67fc8d7888096db8)
++++ /dev/null	(revision f31aa3e8536c62f06ece194c67fc8d7888096db8)
+@@ -1,15 +0,0 @@
+-# Default ignored files
+-/shelf/
+-/workspace.xml
+-# Rider ignored files
+-/.idea.PaymentNET.AspNetCore.iml
+-/modules.xml
+-/contentModel.xml
+-/projectSettingsUpdater.xml
+-# Ignored default folder with query files
+-/queries/
+-# Datasource local storage ignored files
+-/dataSources/
+-/dataSources.local.xml
+-# Editor-based HTTP Client requests
+-/httpRequests/
+Index: .idea/.idea.PaymentNET.AspNetCore/.idea/encodings.xml
+===================================================================
+diff --git a/.idea/.idea.PaymentNET.AspNetCore/.idea/encodings.xml b/.idea/.idea.PaymentNET.AspNetCore/.idea/encodings.xml
+deleted file mode 100644
+--- a/.idea/.idea.PaymentNET.AspNetCore/.idea/encodings.xml	(revision f31aa3e8536c62f06ece194c67fc8d7888096db8)
++++ /dev/null	(revision f31aa3e8536c62f06ece194c67fc8d7888096db8)
+@@ -1,4 +0,0 @@
+-<?xml version="1.0" encoding="UTF-8"?>
+-<project version="4">
+-  <component name="Encoding" addBOMForNewFiles="with BOM under Windows, with no BOM otherwise" />
+-</project>
+\ No newline at end of file
+Index: .idea/.idea.PaymentNETClient.AspNetCore/.idea/indexLayout.xml
+===================================================================
+diff --git a/.idea/.idea.PaymentNETClient.AspNetCore/.idea/indexLayout.xml b/.idea/.idea.PaymentNETClient.AspNetCore/.idea/indexLayout.xml
+deleted file mode 100644
+--- a/.idea/.idea.PaymentNETClient.AspNetCore/.idea/indexLayout.xml	(revision f31aa3e8536c62f06ece194c67fc8d7888096db8)
++++ /dev/null	(revision f31aa3e8536c62f06ece194c67fc8d7888096db8)
+@@ -1,8 +0,0 @@
+-<?xml version="1.0" encoding="UTF-8"?>
+-<project version="4">
+-  <component name="UserContentModel">
+-    <attachedFolders />
+-    <explicitIncludes />
+-    <explicitExcludes />
+-  </component>
+-</project>
+\ No newline at end of file
+Index: .idea/.idea.PaymentNET.AspNetCore/.idea/misc.xml
+===================================================================
+diff --git a/.idea/.idea.PaymentNET.AspNetCore/.idea/misc.xml b/.idea/.idea.PaymentNET.AspNetCore/.idea/misc.xml
+deleted file mode 100644
+--- a/.idea/.idea.PaymentNET.AspNetCore/.idea/misc.xml	(revision f31aa3e8536c62f06ece194c67fc8d7888096db8)
++++ /dev/null	(revision f31aa3e8536c62f06ece194c67fc8d7888096db8)
+@@ -1,17 +0,0 @@
+-<?xml version="1.0" encoding="UTF-8"?>
+-<project version="4">
+-  <component name="MaterialThemeProjectNewConfig">
+-    <option name="metadata">
+-      <MTProjectMetadataState>
+-        <option name="migrated" value="true" />
+-        <option name="pristineConfig" value="false" />
+-        <option name="userId" value="68f2dc19:19dea9a4106:-7ffd" />
+-      </MTProjectMetadataState>
+-    </option>
+-    <option name="titleBarState">
+-      <MTProjectTitleBarConfigState>
+-        <option name="overrideColor" value="false" />
+-      </MTProjectTitleBarConfigState>
+-    </option>
+-  </component>
+-</project>
+\ No newline at end of file
