@@ -37,7 +37,12 @@ jobs:
             -p:PackageVersion=$VERSION \
             -o ./artifacts
 
-
+      - name: Debug paths
+        run: |
+          pwd
+          ls -la
+          find . -name "*.nupkg" -type f
+      
       - name: Publish to NuGet
         run: |
           dotnet nuget push "./artifacts/*.nupkg" \
